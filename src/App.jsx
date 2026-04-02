@@ -62,7 +62,7 @@ function App() {
     const link = document.querySelector("link[rel~='icon']") || document.createElement('link');
     link.rel = 'icon';
     link.type = 'image/png';
-    link.href = 'logo.png'; 
+    link.href = 'logo.PNG'; 
     document.getElementsByTagName('head')[0].appendChild(link);
   }, []);
 
@@ -70,7 +70,7 @@ function App() {
     <>
       <div className="barra">
         <div className="barra-content">
-          <img src="logo.png" alt="Logo SM" className="logo-header" />
+          <img src="logo.PNG" alt="Logo SM" className="logo-header" />
           <h1 className="titolo">Stefano Martucci</h1>
         </div>
       </div>
