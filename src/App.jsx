@@ -86,7 +86,7 @@ function App() {
               <h2 className="hero-role">Informatico</h2>
               <p className="hero-desc">Nato il 21/06/2002, domiciliato a Catania,</p>
               <p className="hero-desc">appassionato di informatica, programmazione e tecnologia in generale,</p>
-              <p>mi piace stare al passo coi tempi e acquisire nuove conoscenze.</p>
+              <p className="hero-desc">mi piace stare al passo coi tempi e acquisire nuove conoscenze.</p>
             </div>
             <div className="buttons">
               <a href="mailto:tuaemail@email.com" className="btn">Contattami</a>
