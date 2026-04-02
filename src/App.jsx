@@ -57,10 +57,22 @@ function GitHubProjects() {
 }
 
 function App() {
+  useEffect(() => {
+    document.title = "Stefano Martucci | Portfolio";
+    const link = document.querySelector("link[rel~='icon']") || document.createElement('link');
+    link.rel = 'icon';
+    link.type = 'image/png';
+    link.href = 'logo.png'; 
+    document.getElementsByTagName('head')[0].appendChild(link);
+  }, []);
+
   return (
     <>
       <div className="barra">
-        <h1 className="titolo">Stefano Martucci</h1>
+        <div className="barra-content">
+          <img src="logo.PNG" alt="Logo SM" className="logo-header" />
+          <h1 className="titolo">Stefano Martucci</h1>
+        </div>
       </div>
 
       <section className="section-white">
