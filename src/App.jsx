@@ -107,7 +107,7 @@ function App() {
                 <h3 className="card-title">Laureando in Informatica</h3>
               </div>
               <p className="card-link">Università degli Studi di Catania</p>
-              <p className="card-year">2025</p>
+              <p className="card-year">2026</p>
               <p className="card-desc">Laurea triennale in informatica, tesi: 'Aerial object recognition with neural networks'</p>
             </div>
             <div className="card">
